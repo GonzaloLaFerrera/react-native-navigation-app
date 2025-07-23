@@ -4,13 +4,13 @@ import React from 'react';
 const StackLayout = () => {
     return (
         <Stack
-        /* screenOptions={{
-            // headerShown: false
-            // headerShadowVisible: false,
-            contentStyle: {
-                backgroundColor: 'white'
-            }
-        }} */
+            screenOptions={{
+                headerShown: false,
+                // headerShadowVisible: false,
+                contentStyle: {
+                    backgroundColor: 'white'
+                }
+            }}
         >
             <Stack.Screen
                 name='home/index'
