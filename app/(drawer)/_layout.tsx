@@ -19,6 +19,7 @@ const DrawerLayout = () => {
             options={{
                 drawerLabel: 'Tabs + Stack',
                 title: 'Tabs + Stack',
+                headerShown: false,
                 drawerIcon: ({ color, size }) => (
                     <Ionicons
                         name='albums-outline'
